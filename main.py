@@ -1,13 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tkinter as tk
-from tkinter import messagebox
 
 class LevelCurveGenerator:
 
     def __init__(self, func_str, x_range=(-10, 10), y_range=(-10, 10), levels=10):
         """
-        func_str: The function as a string
+        func_str: The function
         x_range: Range for x-axis
         y_range: Range for y-axis
         levels: Number of level curves to display
